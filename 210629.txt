@@ -1,0 +1,17 @@
+layout에서 fragment 사용
+
+  <head th:replace="fragments/config :: configFragment"></head>
+
+  <header th:replace="fragments/header :: headerFragment"></header>
+
+  <div layout:fragment="content"></div>
+
+  <footer th:replace="fragments/footer :: footerFragment"></footer>
+
+
+
+Layout : 
+Fragment : 반복적인 내용, 헤드, 헤더, 푸터
+
+
+fragment에 th:fragment="configFragment" 삽입
